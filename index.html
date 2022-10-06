@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rony Juárez">
+    <meta rel="theme-color" content="#00ff00">
+    <link rel="shortcut icon" href="icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Rony Juárez</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            
+            <div class="logo">
+                <a href="#portfolio">RJ</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">EDUCACIÓN</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">¿QUIÉN SOY?</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>   
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+</br>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="RJ.jpg" alt="">
+            </div>
+            <h1>Rony Juárez</h1>
+            <h2>Programador</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/Rony.juarez3105" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/roy31___/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://discord.gg/92Yd6GzC8r" target="_blank"><i class="fa-brands fa-discord" target="_blank"></i></a>
+                <a href="https://wa.me/50257469871?text=Hola%20Roy%20Guapo" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.youtube.com/channel/UCjKjJGOzVEyb_ablkXUi1yw" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Holaa, me llamo Rony Juárez.</span> Soy un estudiante que se especializa en la Informática y en las nuevas tecnologias, soy un programador que se destaca en el area de la ciberseguridad, me encanta lo que es la  es la práctica de proteger sistemas, redes y programas de ataques digitales, asi mismo me apasiona construir y mantener sitios web.</p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños:</strong>
+                            31/05/2004
+                        </li>
+                        <li>
+                            <strong>Teléfono:</strong>
+                            +502 5746-9871
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            ronyrubelsy31@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección:</strong>
+                            Zaragoza, Chimaltenango
+                        </li>
+                        <li>
+                            <strong>Nombre Completo:</strong>
+                            <span>Rony Rubelsy Juárez Cobo</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-chess-knight"></i>
+                            <span>AJEDREZ</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-lock"></i>
+                            <span>CIBER SEG</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-carrot"></i>
+                            <span>BUNNY ♡</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>SOCCER</span>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <button  type="submit">
+                <a href="https://www.youtube.com/" target="_blank" color="fffff">Descargar CV <i class="fa-solid fa-download"></i></a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C++</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MVC</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Paciencia</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION EDUCACION -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Educación</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <div class="item izq">
+                        <h4>Chimaltenango</h4>
+                        <span class="casa">Liceo Integral Científico en Computación</span>
+                        <span class="fecha">2020 - 2022 Bachillerato Industrial y Perito en Informática con Especialidad En Computación</span>
+                       <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Zaragoza</h4>
+                        <span class="casa">Colegio Mixto Nuestra Señora Del Pilar</span>
+                        <span class="fecha">2017 – 2019 Tercero Básico</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <div class="item der">
+                        <h4>Zaragoza</h4>
+                        <span class="casa">Escuela Oficial Rural Mixta Agua Dulce</span>
+                        <span class="fecha">2009 – 2016  Pre-primaria y Primaria</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION VIDEO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>¿Quién soy?</h2>
+            <div class="galeria">
+        <iframe  class="proyecto" src="https://www.youtube.com/embed/zMYkaK5-Ff8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <form  class="col" action="enviar.php" method="post">
+                <div class="col">
+                    <input name="nombre" type="text" placeholder="Tú Nombre">
+                    <input name="correo" id="email" type="email" placeholder="Dirección de correo">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button type="submit">
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </form>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Km 62.5, Pan-American Highway, Zaragoza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: 57469871 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: ronyrubelsy31@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://wa.me/50257469871?text=Holaa%20Roy%20Guapo" target="_blank" ><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/Rony.juarez3105" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/roy31___/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://discord.gg/92Yd6GzC8r" target="_blank"><i class="fa-brands fa-discord" target="_blank"></i></a>   
+            <a href="https://www.youtube.com/channel/UCjKjJGOzVEyb_ablkXUi1yw"target="_blank" ><i class="fa-brands fa-youtube"></i></a>
+                 
+        </div>
+        <strong>Rony Juárez Copyright</strong>
+        <p>Todos lo derechos Reservados</p>
+          
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
